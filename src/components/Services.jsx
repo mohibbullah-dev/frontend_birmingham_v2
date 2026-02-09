@@ -1,12 +1,14 @@
 import { business } from "../data/business";
 
 function DotIcon() {
-  return <span className="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-emerald-300" />;
+  return (
+    <span className="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-emerald-300" />
+  );
 }
 
 export default function Services() {
   const waLink = `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(
-    business.whatsappPrefill
+    business.whatsappPrefill,
   )}`;
 
   return (
@@ -14,7 +16,9 @@ export default function Services() {
       <div className="mx-auto max-w-5xl">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Plumbing services</h2>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+              Plumbing services
+            </h2>
             <p className="mt-2 max-w-2xl text-sm text-white/70">
               Quick, clean work — with a clear quote before anything starts.
             </p>
