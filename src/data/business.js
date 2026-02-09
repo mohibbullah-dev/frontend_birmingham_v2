@@ -1,19 +1,19 @@
 export const business = {
   // Demo branding (replace with a real company name when selling)
-  name: "Birmingham Plumbing Co.",
-  tagline: "24/7 Emergency Plumber in Birmingham",
-  city: "Birmingham",
+  name: "سباك التجمع",
+  tagline: "Professional Plumbing Services in New Cairo",
+  city: "القاهرة الجديدة",
 
   // Demo numbers (replace with real)
-  phoneDisplay: "07 0000 00000",
-  phoneTel: "+447000000000",
+  phoneDisplay: "01034684553",
+  phoneTel: "+201117467379",
 
   // WhatsApp number WITHOUT +
-  whatsappNumber: "447000000000",
+  whatsappNumber: "201117467379",
 
   // Used for quick CTA buttons
   whatsappPrefill:
-    "Hi, I need a plumber in Birmingham. Area: ____. Issue: ____. When can you come?",
+    "Hi, I need a plumber in New Cairo. Area: ____. Issue: ____. When can you come?",
 
   // What you show under the hero section
   serviceHours: "24/7 emergency support • Same‑day visits when available",
@@ -24,7 +24,7 @@ export const business = {
   // Quick trust badges (used in hero)
   trustBadges: [
     "Fully insured",
-    "Local Birmingham",
+    "Local New Cairo",
     "Clear pricing",
     "Fast response",
   ],
@@ -75,7 +75,7 @@ export const business = {
   pricing: [
     {
       name: "Starter (Homepage only)",
-      price: "£120–£150",
+      price: "EGP500–EGP1000",
       desc: "A fast, modern homepage like this demo — ready for mobile calls.",
       bullets: [
         "Homepage + sections",
@@ -85,7 +85,7 @@ export const business = {
     },
     {
       name: "Standard",
-      price: "£200–£250",
+      price: "EGP700–EGP1200",
       desc: "Homepage + 2 service pages/sections and contact improvements.",
       bullets: [
         "Better service clarity",
@@ -95,7 +95,7 @@ export const business = {
     },
     {
       name: "Premium",
-      price: "£350–£400",
+      price: "EGP1000–£1500",
       desc: "A full small-site build for trades who want maximum trust & coverage.",
       bullets: [
         "Multiple service pages",
@@ -109,17 +109,17 @@ export const business = {
   reviewsNote: "Sample layout — replace with real Google reviews.",
   reviews: [
     {
-      name: "James P.",
+      name: "Mohammed",
       rating: 5,
       text: "Arrived quickly and fixed the leak the same day.",
     },
     {
-      name: "Sarah M.",
+      name: "Ahmed",
       rating: 5,
       text: "Clear price upfront and very tidy work.",
     },
     {
-      name: "Omar K.",
+      name: "Khaled",
       rating: 5,
       text: "Great communication — booked by WhatsApp in minutes.",
     },
