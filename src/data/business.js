@@ -140,10 +140,11 @@ export const business = {
     },
   ],
 
-  mapEmbedUrl: "https://www.google.com/maps?q=Birmingham%2C%20UK&output=embed",
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.61185340652!2d31.4057887!3d30.0362899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145822cffcc970e7%3A0x899b73d687889f0d!2sNew%20Cairo%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1707490000000!5m2!1sen!2seg",
   highlights: [
     { title: "Fast response", desc: "Emergency call-outs & same-day slots." },
     { title: "Clear pricing", desc: "No surprises — quote before work." },
-    { title: "Local & insured", desc: "Birmingham-based plumbers." },
+    { title: "Local & insured", desc: "New Cairo-based plumbers." },
   ],
 };
