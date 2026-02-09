@@ -5,7 +5,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   const waLink = `https://wa.me/${business.whatsappNumber}?text=${encodeURIComponent(
-    business.whatsappPrefill
+    business.whatsappPrefill,
   )}`;
 
   return (
@@ -15,7 +15,9 @@ export default function Header() {
           <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 shadow-sm" />
           <div className="leading-tight">
             <div className="text-sm font-semibold">{business.name}</div>
-            <div className="text-xs text-white/70">Birmingham • 24/7 Emergency</div>
+            <div className="text-xs text-white/70">
+              New Cairo • 24/7 Emergency
+            </div>
           </div>
         </a>
 
